@@ -90,7 +90,7 @@ const unifiedServer = (req,res) => {
         
 
         //log the request path 
-        console.log("the parsed path is ",trimmedPath)
+        console.log("the parsed path is here",trimmedPath)
         console.log("the method is ",method+" with parsed query as ",queryStringObj)
         console.log(headerObj)
         console.log(buffer)
