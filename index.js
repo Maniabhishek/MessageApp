@@ -110,8 +110,10 @@ handler.notFound = function(data,callback){
 }
 
 let routes = {
-    'hello':handler.hello
+    'hello':handler.hello,
+    'there':handler.there
 }
+
 
 
 httpServer.listen(config.port,()=>console.log("server listening on port ",config.port,config.envName))
