@@ -110,7 +110,8 @@ handler.notFound = function(data,callback){
 }
 
 let routes = {
-    'hello':handler.hello
+    'hello':handler.hello,
+    'bye':handler.bye
 }
 
 
